@@ -1,4 +1,5 @@
 import { cssBundleHref } from "@remix-run/css-bundle";
+import styles from "./styles/main.css";
 import {
   Links,
   LiveReload,
@@ -10,6 +11,7 @@ import {
 
 export const links = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
+  ...(styles ? [{ rel: "stylesheet", href: styles }] : []),
 ];
 
 export default function App() {
