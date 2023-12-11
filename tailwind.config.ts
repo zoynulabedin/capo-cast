@@ -16,7 +16,8 @@ export default {
         lg24: "24px", // Large
         xl30: "30px", // Extra Large
         xxl40: "40px", // Extra Large
-        xxxl50: "50px", // Extra Large
+        xxxl50: "50px",
+        xxxl60: "60px", // Extra Large
         xlx100: "100px", // Extra Large
       },
       colors: {

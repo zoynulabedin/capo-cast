@@ -1,7 +1,7 @@
 import { Link } from "@remix-run/react";
 export const SlideItem = ({ thumbnail, artist, id }) => {
   return (
-    <Link to={`/artist/${id}`}>
+    <Link to={`/dashboard/artist/${id}`}>
       <div className="flex flex-col justify-center mt-7">
         <div
           style={{

@@ -1,11 +1,12 @@
 import React from "react";
 import SlideItem from "../components/slideItem/SlideItem";
-import { useParams, Outlet } from "@remix-run/react";
-export const loader = () => {
-  console.log("loading back");
-  return null;
-};
+import { Outlet, useParams } from "@remix-run/react";
 const Artist = () => {
+  const params = useParams();
+  const artistId = params.artistId;
+  if (artistId) {
+    return <Outlet />;
+  }
   return (
     <div className="flex flex-row justify-between flex-wrap">
       <SlideItem thumbnail="../../img/1.png" artist="PFire" id="1" />
@@ -28,6 +29,7 @@ const Artist = () => {
       <SlideItem thumbnail="../../img/3.png" artist="Neil Tran" id="18" />
       <SlideItem thumbnail="../../img/4.png" artist="Soo Jin Ae" id="19" />
       <SlideItem thumbnail="../../img/5.png" artist="Yael Amari" id="20" />
+      <Outlet />
     </div>
   );
 };
