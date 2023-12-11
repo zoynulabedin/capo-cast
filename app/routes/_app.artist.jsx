@@ -6,11 +6,6 @@ export const loader = () => {
   return null;
 };
 const Artist = () => {
-  const paramsId = useParams();
-  if (paramsId.id) {
-    return <Outlet />;
-  }
-
   return (
     <div className="flex flex-row justify-between flex-wrap">
       <SlideItem thumbnail="../../img/1.png" artist="PFire" id="1" />

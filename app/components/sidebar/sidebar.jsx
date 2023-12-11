@@ -50,7 +50,7 @@ const playList = [
 
 const Sidebar = () => {
   return (
-    <div className="sidebar bg-darkbgs h-full">
+    <div className="sidebar bg-darkbgs">
       <div className="logo">
         <img src="../../../img/logo.png" alt="" />
       </div>

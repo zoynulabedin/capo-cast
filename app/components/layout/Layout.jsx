@@ -3,10 +3,10 @@ import Sidebar from "../sidebar/sidebar";
 
 const Layout = ({ children }) => {
   return (
-    <div className="flex flex-row h-full">
+    <div className="flex flex-row">
       <div
-        style={{ backgroundColor: "#3B3B3B", height: "100vh" }}
-        className="menu  basis-1/4 bg-darkbg h-full p-5"
+        style={{ backgroundColor: "#3B3B3B" }}
+        className="menu  basis-1/4 bg-darkbg p-5"
       >
         <Sidebar />
       </div>
