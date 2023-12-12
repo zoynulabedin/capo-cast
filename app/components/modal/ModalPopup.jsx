@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 const ModalPopup = ({ isOpen, onClose, children }) => {
   return (
     <>

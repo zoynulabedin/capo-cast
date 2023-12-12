@@ -48,6 +48,7 @@ const ArtistBanner = ({ banner, title, title2, slug }) => {
       <ModalPopup isOpen={isModalOpen} onClose={closeModal}>
         <div className="w-full h-full absolute z-10 bg-white left-0 right-0 top-0 bottom-0 m-auto">
           <iframe
+            title="artistSong"
             width="100%"
             height="100%"
             src="https://www.youtube.com/embed/tgbNymZ7vqY"
