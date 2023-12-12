@@ -1,4 +1,4 @@
-import { ArtistBanner } from "../components/ArtistBanner/ArtistBanner";
+import { ArtistBanner } from "../components/artistBanner/ArtistBanner";
 
 import React from "react";
 import Spice from "../components/spice/spice";
@@ -8,7 +8,7 @@ export const loader = () => {
 };
 const singleArtist = () => {
   return (
-    <div className="container">
+    <div className="single-artist">
       <ArtistBanner
         banner="../../img/singer-profile-bg.png"
         type="New"
@@ -20,7 +20,7 @@ const singleArtist = () => {
         <h2 className=" text-xl30 text-white mt-4 mb-4">
           More Ice Spice Experiences:
         </h2>
-        <div className="flex flex-row gap-5">
+        <div className="flex xs:flex-col sml:flex-row flex-wrap gap-5">
           <Spice thumbnail="../../img/sp-1.png" title="Gangsta Boo" />
           <Spice thumbnail="../../img/sp-2.png" title="Gangsta Boo" />
           <Spice thumbnail="../../img/sp-3.png" title="Gangsta Boo" />

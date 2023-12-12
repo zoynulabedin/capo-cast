@@ -38,7 +38,7 @@ export default {
         lg: "960px",
         lgl: "1024px",
         xl: "1280px",
-        xll: "1400px",
+        xll: "1300px",
         xlll: "1500px",
         xllll: "1600px",
       },

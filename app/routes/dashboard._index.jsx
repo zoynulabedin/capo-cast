@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <>
       <Banner />
-      <div className="flex justify-between mt-7">
+      <div className="flex mt-7 flex-row flex-wrap gap-3">
         <Button title="For you" active={true} />
         <Button title="Popular" active={false} />
         <Button title="Podcasts" active={false} />
@@ -16,7 +16,7 @@ const Index = () => {
         <Button title="Rook" active={false} />
         <Button title="More" active={false} />
       </div>
-      <div className="flex justify-between">
+      <div className="flex gap-5 flex-wrap">
         <SlideItem thumbnail="../../img/1.png" artist="PFire" id="1" />
         <SlideItem thumbnail="../../img/2.png" artist="Ice Spice" id="2" />
         <SlideItem thumbnail="../../img/3.png" artist="Neil Tran" id="3" />

@@ -7,7 +7,7 @@ const Spice = ({ thumbnail, title }) => {
           backgroundImage: `url(${thumbnail})`,
           backgroundSize: "cover",
         }}
-        className="video flex items-center justify-center w-[206px] h-[134px]"
+        className="video flex items-center justify-center xs:w-full xs:h-[200px] sml:w-[206px] sml:h-[134px]"
       >
         <button>
           <img

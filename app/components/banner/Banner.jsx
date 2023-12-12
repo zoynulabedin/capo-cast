@@ -6,7 +6,7 @@ const Banner = () => {
         backgroundSize: "cover",
         backgroundImageRepeat: "no-repeat",
       }}
-      className="banner-bg flex flex-row bg-red p-5 rounded-lg mt-10 relative"
+      className="banner-bg flex flex-row justify-between bg-red p-5 rounded-lg mt-10 relative"
     >
       <div className="content">
         <div className="con-header flex items-center gap-5">
@@ -16,16 +16,16 @@ const Banner = () => {
           </h2>
         </div>
         <div className="con-body mt-6">
-          <h1 className="text-xxxl50 text-white font-extrabold">
+          <h1 className=" text-xl30 lgl:text-xxxl50 text-white font-extrabold">
             Premium Membership
           </h1>
-          <p className="text-white text-xl leading-10 mt-6">
+          <p className="text-white lgl:text-xl lgl:leading-10 mt-6 break-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud.
           </p>
         </div>
-        <div className="con-footer flex gap-5 mt-10 mb-4">
+        <div className="con-footer flex xs:flex-col sml:flex-row gap-5 mt-10 mb-4">
           <button className=" bg-darkdeepbg text-white pt-3 pb-3 pl-6 pr-6 text-xl rounded-full">
             Upgrade Now
           </button>
@@ -34,8 +34,12 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <div className="photo absolute right-0 top-0 bottom-0">
-        <img className="w-full h-full" src="../../../img/singer.png" alt="" />
+      <div className="photo hidden lgl:block xl:absolute right-0 top-0 bottom-0">
+        <img
+          className="xxl:w-full h-auto xxl:h-full"
+          src="../../../img/singer.png"
+          alt=""
+        />
       </div>
     </div>
   );

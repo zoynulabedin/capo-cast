@@ -13,8 +13,7 @@ export const ArtistBanner = ({ banner, title, title2, slug }) => {
     >
       <div className="content">
         <img src="../../../img/badge.png" alt="" />
-        <h1 className=" text-xxxl60 font-extrabold text-red">
-          {" "}
+        <h1 className="sm:text-2xl lgl:text-xxxl60 lgl:leading-[3rem] font-extrabold text-red">
           {title}
           <br />
           {title2}
