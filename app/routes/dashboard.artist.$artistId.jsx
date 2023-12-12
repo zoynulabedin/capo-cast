@@ -1,15 +1,11 @@
 import React from "react";
 import Spice from "../components/spice/spice";
-import ArtistBanner from "../components/artistBanner/ArtistBanner";
+import SingleBanner from "../components/singlebanner/Singlebanner";
 
-export const loader = () => {
-  console.log(`Loading`);
-  return null;
-};
 const singleArtist = () => {
   return (
     <div className="single-artist">
-      <ArtistBanner
+      <SingleBanner
         banner="../../img/singer-profile-bg.png"
         type="New"
         title="IN HA"
