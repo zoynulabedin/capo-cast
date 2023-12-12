@@ -46,10 +46,13 @@ export const ArtistBanner = ({ banner, title, title2, slug }) => {
         </button>
       </div>
       <ModalPopup isOpen={isModalOpen} onClose={closeModal}>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium,
-          earum.
-        </p>
+        <div className="w-full h-full absolute z-10 bg-white left-0 right-0 top-0 bottom-0 m-auto">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          ></iframe>
+        </div>
       </ModalPopup>
     </div>
   );
