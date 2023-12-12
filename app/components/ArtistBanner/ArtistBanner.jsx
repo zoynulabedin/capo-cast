@@ -2,7 +2,7 @@ import { useState } from "react";
 import ModalPopup from "../modal/ModalPopup";
 import { Link } from "@remix-run/react";
 
-export const ArtistBanner = ({ banner, title, title2, slug }) => {
+const ArtistBanner = ({ banner, title, title2, slug }) => {
   const [isModalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {
@@ -57,3 +57,5 @@ export const ArtistBanner = ({ banner, title, title2, slug }) => {
     </div>
   );
 };
+
+export default ArtistBanner;

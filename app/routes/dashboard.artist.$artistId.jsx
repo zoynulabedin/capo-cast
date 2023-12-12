@@ -1,4 +1,4 @@
-import { ArtistBanner } from "../components/artistBanner/ArtistBanner";
+import ArtistBanner from "../components/artistBanner/ArtistBanner";
 
 import React from "react";
 import Spice from "../components/spice/spice";
