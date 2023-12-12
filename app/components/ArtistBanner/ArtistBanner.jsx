@@ -39,7 +39,7 @@ const ArtistBanner = ({ banner, title, title2, slug }) => {
       </div>
       <div className="shopButton flex flex-col">
         <button className=" absolute bottom-7 right-7  text-center">
-          <Link className="flex flex-col justify-center" to={`shop/${slug}`}>
+          <Link className="flex flex-col justify-center" to={`/dashboard/shop`}>
             <span className=" text-red text-base20"> Shop</span>
             <img src="../../../img/cart.png" alt="" />
           </Link>
