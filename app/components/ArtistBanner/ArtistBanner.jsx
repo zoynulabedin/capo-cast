@@ -1,7 +1,17 @@
-import { RiShoppingBag3Fill } from "react-icons/ri";
+import { useState } from "react";
+import ModalPopup from "../modal/ModalPopup";
 import { Link } from "@remix-run/react";
 
 export const ArtistBanner = ({ banner, title, title2, slug }) => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
   return (
     <div
       style={{
@@ -23,7 +33,7 @@ export const ArtistBanner = ({ banner, title, title2, slug }) => {
         </button>
       </div>
       <div className="playButton">
-        <button>
+        <button onClick={openModal}>
           <img className="rounded-full" src="../../img/playIcon.png" alt="" />
         </button>
       </div>
@@ -35,6 +45,12 @@ export const ArtistBanner = ({ banner, title, title2, slug }) => {
           </Link>
         </button>
       </div>
+      <ModalPopup isOpen={isModalOpen} onClose={closeModal}>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium,
+          earum.
+        </p>
+      </ModalPopup>
     </div>
   );
 };
