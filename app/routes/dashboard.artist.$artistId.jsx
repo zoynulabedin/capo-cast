@@ -1,7 +1,6 @@
-import ArtistBanner from "../components/artistBanner/ArtistBanner";
-
 import React from "react";
 import Spice from "../components/spice/spice";
+import ArtistBanner from "../components/artistBanner/ArtistBanner";
 export const loader = () => {
   console.log(`Loading`);
   return null;
