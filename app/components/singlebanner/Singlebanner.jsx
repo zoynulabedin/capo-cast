@@ -48,10 +48,13 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
       <ModalPopup isOpen={isModalOpen} onClose={closeModal}>
         <div className="w-full h-full absolute z-10 bg-white left-0 right-0 top-0 bottom-0 m-auto">
           <iframe
-            title="artistSong"
+            title="artitist"
+            src="https://widgets.dropp.tv/video/kcJqzvuor2G7b-v4/shop"
+            frameborder="0"
+            scrolling="no"
+            style="overflow: hidden;"
             width="100%"
             height="100%"
-            src="https://widgets.dropp.tv/video/kcJqzvuor2G7b-v4/shop"
           ></iframe>
         </div>
       </ModalPopup>
