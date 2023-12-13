@@ -52,7 +52,7 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
             src="https://widgets.dropp.tv/video/kcJqzvuor2G7b-v4/shop"
             frameborder="0"
             scrolling="no"
-            style="overflow: hidden;"
+            style={{ overflow: "hidden" }}
             width="100%"
             height="100%"
           ></iframe>
