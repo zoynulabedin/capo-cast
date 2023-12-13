@@ -6,11 +6,11 @@ const Layout = ({ children }) => {
     <div className="flex flex-col xll:flex-row">
       <div
         style={{ backgroundColor: "#3B3B3B", height: "100vh" }}
-        className="menu xs:w-ful xll:basis-1/4 bg-darkbg p-5 "
+        className="menu xs:w-ful xll:basis-1/5 bg-darkbg p-5 relative h-full"
       >
         <Sidebar />
       </div>
-      <div className="content xll:basis-3/4 p-5">
+      <div className="content xll:basis-4/5 p-5">
         <Navbar />
         {children}
       </div>
