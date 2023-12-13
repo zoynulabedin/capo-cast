@@ -7,7 +7,7 @@ const Shop = () => {
         Introducing Treats Hanukkah, a festive collection featuring apparel,
         custom dreidels, and a custom Hanukkah Plate Set
       </p>
-      <div className="flex flex-row flex-wrap gap-5">
+      <div className="grid xs:grid-cols-1 sml:grid-cols-2 lgl:grid-cols-3 gap-5">
         <Product
           thumbnail="../../img/s1.png"
           price="$1500"

@@ -7,7 +7,7 @@ const Product = ({ thumbnail, price, title, cat, color }) => {
           backgroundSize: `cover`,
           backgroundPosition: "center",
         }}
-        className="flex w-[317px] h-[341px] justify-end "
+        className="flex h-[341px] justify-end "
       >
         <h2 className="mr-4 mt-4 text-white bg-gradient-to-r from-rose-600 to-rose-900 hover:bg-gradient-to-r hover:from-rose-900 hover:to-rose-600 h-[34px] flex items-center pl-4 pr-4 rounded-full transition">
           <span className=" text-white70 text-sm">Price:</span>
