@@ -1,17 +1,19 @@
-import { useState } from "react";
-import ModalPopup from "../modal/ModalPopup";
+// import { useState } from "react";
+// import ModalPopup from "../modal/ModalPopup";
+// eslint-disable-next-line import/no-duplicates
 import { Link } from "@remix-run/react";
 
 const SingleBanner = ({ banner, title, title2, slug }) => {
-  const [isModalOpen, setModalOpen] = useState(false);
+  // const [isModalOpen, setModalOpen] = useState(false);
 
-  const openModal = () => {
-    setModalOpen(true);
-  };
+  // const openModal = () => {
+  //   setModalOpen(true);
+  // };
 
-  const closeModal = () => {
-    setModalOpen(false);
-  };
+  // const closeModal = () => {
+  //   setModalOpen(false);
+  // };
+
   return (
     <div
       style={{
@@ -28,17 +30,17 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
           <br />
           {title2}
         </h1>
-        <button
-          onClick={openModal}
+        <Link
+          to="/video"
           className="bg-gradient-to-r from-rose-600 to-rose-900 hover:bg-gradient-to-r hover:from-rose-900 hover:to-rose-900 text-white pl-5 pr-5 pt-3 pb-3 rounded-full"
         >
           Watch Now
-        </button>
+        </Link>
       </div>
-      <div className="playButton">
-        <button onClick={openModal}>
+      <div className="playButton ">
+        <Link to="/video">
           <img className="rounded-full" src="../../img/playIcon.png" alt="" />
-        </button>
+        </Link>
       </div>
       <div className="shopButton flex flex-col">
         <button className=" absolute bottom-7 right-7  text-center">
@@ -48,7 +50,7 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
           </Link>
         </button>
       </div>
-      <ModalPopup isOpen={isModalOpen} onClose={closeModal}>
+      {/* <ModalPopup isOpen={isModalOpen} onClose={closeModal}>
         <div className="w-full h-full absolute z-10 bg-white left-0 right-0 top-0 bottom-0 m-auto">
           <iframe
             title="artitist"
@@ -60,7 +62,7 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
             height="100%"
           ></iframe>
         </div>
-      </ModalPopup>
+      </ModalPopup> */}
     </div>
   );
 };

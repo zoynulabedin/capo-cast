@@ -18,3 +18,13 @@ body {
   left: 100px;
   content: "";
 }
+
+.playButton {
+  position: absolute;
+  right: 0;
+  left: 47%;
+  top: 50%;
+  bottom: 0;
+  text-align: center;
+  margin: auto;
+}
