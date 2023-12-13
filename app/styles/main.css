@@ -28,9 +28,3 @@ body {
   text-align: center;
   margin: auto;
 }
-
-.song-list img {
-  height: 206px;
-  object-fit: cover;
-  width: 100%;
-}
