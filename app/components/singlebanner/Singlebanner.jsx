@@ -23,12 +23,15 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
     >
       <div className="content">
         <img src="../../../img/badge.png" alt="" />
-        <h1 className="sm:text-2xl lgl:text-xxxl60 lgl:leading-[3rem] font-extrabold text-red">
+        <h1 className="sm:text-2xl lgl:text-xxxl60 lgl:leading-[4rem] font-extrabold text-red mt-3 mb-3">
           {title}
           <br />
           {title2}
         </h1>
-        <button className="bg-gradient-to-r from-rose-600 to-rose-900 hover:bg-gradient-to-r hover:from-rose-900 hover:to-rose-900 text-white pl-5 pr-5 pt-3 pb-3 rounded-full">
+        <button
+          onClick={openModal}
+          className="bg-gradient-to-r from-rose-600 to-rose-900 hover:bg-gradient-to-r hover:from-rose-900 hover:to-rose-900 text-white pl-5 pr-5 pt-3 pb-3 rounded-full"
+        >
           Watch Now
         </button>
       </div>

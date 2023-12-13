@@ -8,8 +8,8 @@ const singleArtist = () => {
       <SingleBanner
         banner="../../img/singer-profile-bg.png"
         type="New"
-        title="IN HA"
-        title2="MOOD"
+        title="IF YOU WANT"
+        title2="ME TO STAY"
         slug="in-ha-mod"
       />
       <div className="experiences">
