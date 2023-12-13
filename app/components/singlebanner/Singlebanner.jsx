@@ -51,7 +51,7 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
             title="artistSong"
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            src="https://widgets.dropp.tv/video/kcJqzvuor2G7b-v4/shop"
           ></iframe>
         </div>
       </ModalPopup>
