@@ -14,7 +14,7 @@ const singleArtist = () => {
       />
       <div className="experiences">
         <h2 className=" text-xl30 text-white mt-4 mb-4">
-          More Ice Spice Experiences:
+          Additional artist experiences:
         </h2>
         <div className="flex xs:flex-col sml:flex-row flex-wrap gap-5">
           <Spice thumbnail="../../img/sp-1.png" title="Gangsta Boo" />
