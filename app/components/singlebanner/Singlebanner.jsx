@@ -15,15 +15,10 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
   // };
 
   return (
-    <div
-      style={{
-        backgroundImage: `url(${banner})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-      className="flex justify-between h-[454px] items-center pl-7 pr-7 relative mt-7"
-    >
-      <div className="content">
+    <Link to="/video">
+      <div className="artist-banner">
+        <img src={`${banner}`} className=" object-cover" alt="" />
+        {/* <div className="content">
         <img src="../../../img/badge.png" alt="" />
         <h1 className="sm:text-2xl lgl:text-xxxl60 lgl:leading-[4rem] font-extrabold text-red mt-3 mb-3">
           {title}
@@ -49,8 +44,8 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
             <img src="../../../img/cart.png" alt="" />
           </Link>
         </button>
-      </div>
-      {/* <ModalPopup isOpen={isModalOpen} onClose={closeModal}>
+      </div> */}
+        {/* <ModalPopup isOpen={isModalOpen} onClose={closeModal}>
         <div className="w-full h-full absolute z-10 bg-white left-0 right-0 top-0 bottom-0 m-auto">
           <iframe
             title="artitist"
@@ -63,7 +58,8 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
           ></iframe>
         </div>
       </ModalPopup> */}
-    </div>
+      </div>
+    </Link>
   );
 };
 

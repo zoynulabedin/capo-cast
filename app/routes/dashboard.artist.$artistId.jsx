@@ -17,10 +17,10 @@ const singleArtist = () => {
           Additional artist experiences:
         </h2>
         <div className="flex xs:flex-col sml:flex-row flex-wrap gap-5">
-          <Spice thumbnail="../../img/sp-1.png" title="Gangsta Boo" />
-          <Spice thumbnail="../../img/sp-2.png" title="Gangsta Boo" />
-          <Spice thumbnail="../../img/sp-3.png" title="Gangsta Boo" />
-          <Spice thumbnail="../../img/sp-4.png" title="Gangsta Boo" />
+          <Spice thumbnail="../../img/p/1.png" title="Gangsta Boo" />
+          <Spice thumbnail="../../img/p/2.png" title="Gangsta Boo" />
+          <Spice thumbnail="../../img/p/3.png" title="Gangsta Boo" />
+          <Spice thumbnail="../../img/p/4.png" title="Gangsta Boo" />
         </div>
       </div>
     </div>
