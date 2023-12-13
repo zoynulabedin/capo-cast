@@ -23,8 +23,14 @@ body {
   position: absolute;
   right: 0;
   left: 47%;
-  top: 50%;
+  top: 43%;
   bottom: 0;
   text-align: center;
   margin: auto;
+}
+
+.song-list img {
+  height: 206px;
+  object-fit: cover;
+  width: 100%;
 }

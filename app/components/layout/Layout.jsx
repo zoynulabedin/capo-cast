@@ -5,8 +5,8 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col xll:flex-row">
       <div
-        style={{ backgroundColor: "#3B3B3B", height: "100vh" }}
-        className="menu xs:w-ful xll:basis-1/5 bg-darkbg p-5 relative h-full"
+        style={{ backgroundColor: "#3B3B3B" }}
+        className="menu left-sidebar xs:w-ful xll:basis-1/5 bg-darkbg p-5 relative"
       >
         <Sidebar />
       </div>

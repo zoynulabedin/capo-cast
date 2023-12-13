@@ -11,7 +11,7 @@ const menuItems = [
     list: [
       {
         title: "Home",
-        path: "/",
+        path: "/dashboard",
         icon: <AiFillAppstore size={30} />,
       },
       {
