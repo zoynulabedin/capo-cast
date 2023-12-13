@@ -36,9 +36,9 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
         </button>
       </div>
       <div className="playButton">
-        <button onClick={openModal}>
+        {/* <button onClick={openModal}>
           <img className="rounded-full" src="../../img/playIcon.png" alt="" />
-        </button>
+        </button> */}
       </div>
       <div className="shopButton flex flex-col">
         <button className=" absolute bottom-7 right-7  text-center">
