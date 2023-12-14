@@ -9,6 +9,8 @@
     "start": "remix-serve ./build/index.js"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.0.16",
+    "@fontsource/montserrat": "^5.0.16",
     "@remix-run/css-bundle": "^2.3.1",
     "@remix-run/node": "^2.3.1",
     "@remix-run/react": "^2.3.1",

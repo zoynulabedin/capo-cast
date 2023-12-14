@@ -9,7 +9,7 @@ export const SlideItem = ({ thumbnail, artist, id }) => {
             backgroundSize: "cover",
             backgroundPosition: "center center",
           }}
-          className="item h-[250px] w-[200px] flex items-center justify-center"
+          className="item h-[200px] w-[200px] flex items-center justify-center rounded-xl"
         >
           <button>
             <img className="rounded-full" src="../../../img/play.png" alt="" />

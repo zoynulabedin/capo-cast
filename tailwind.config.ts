@@ -20,6 +20,10 @@ export default {
         xxxl60: "60px", // Extra Large
         xlx100: "100px", // Extra Large
       },
+      fontFamily: {
+        Montserrat: ["Montserrat"],
+        Inter: ["Inter"],
+      },
       colors: {
         darkbg: "#3B3B3B",
         darkdeepbg: "#202020",

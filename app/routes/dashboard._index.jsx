@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <>
       <Banner />
-      <div className="flex mt-7 flex-row flex-wrap gap-3">
+      <div className="grid xs:grid-cols-3 sml:grid-cols-4 mdl:grid-cols-7 gap-6 mt-5">
         <Button title="For you" active={true} />
         <Button title="Popular" active={false} />
         <Button title="Podcasts" active={false} />
@@ -16,7 +16,7 @@ const Index = () => {
         <Button title="Rook" active={false} />
         <Button title="More" active={false} />
       </div>
-      <div className="flex gap-5 flex-wrap">
+      <div className="grid xs:grid-cols-1 sm:grid-cols-2 mdl:grid-cols-3 lg:grid-cols-3 lgl:grid-cols-4 xl:grid-cols-5 gap-4 justify-center">
         <SlideItem thumbnail="../../img/1.png" artist="PFire" id="1" />
         <SlideItem thumbnail="../../img/2.png" artist="Ice Spice" id="2" />
         <SlideItem thumbnail="../../img/3.png" artist="Neil Tran" id="3" />

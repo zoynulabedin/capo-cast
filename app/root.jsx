@@ -1,4 +1,5 @@
 import styles from "./styles/main.css";
+import "@fontsource/inter";
 import {
   Links,
   LiveReload,

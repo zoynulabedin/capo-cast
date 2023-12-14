@@ -1,7 +1,11 @@
 /** @type {import('@remix-run/dev').AppConfig} */
 export default {
   ignoredRouteFiles: ["**/.*"],
-  serverDependenciesToBundle: [/^react-icons/],
+  serverDependenciesToBundle: [
+    /^react-icons/,
+    /^@fontsource\/montserrat/,
+    /^@fontsource\/inter/,
+  ],
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // publicPath: "/build/",

@@ -15,7 +15,7 @@ body {
   height: 1px;
   background: rgba(255, 255, 255, 0.7);
   top: 10px;
-  left: 100px;
+  left: 124px;
   content: "";
 }
 
@@ -27,4 +27,7 @@ body {
   bottom: 0;
   text-align: center;
   margin: auto;
+}
+ul li a {
+  font-family: "Inter" !important;
 }
