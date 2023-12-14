@@ -13,7 +13,7 @@ const singleArtist = () => {
         slug="in-ha-mod"
       />
       <div className="experiences">
-        <h2 className=" text-xl30 text-white mt-4 mb-4">
+        <h2 className=" text-base20 text-white mt-4 mb-4">
           Additional artist experiences:
         </h2>
         <div className="grid grid-cols-4 lgl:grid-cols-4 xs:grid-cols-2 song-list">

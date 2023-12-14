@@ -21,7 +21,7 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="flex justify-between h-[450px] items-center pl-7 pr-7 relative mt-7"
+      className="flex justify-between h-[350px] items-center pl-7 pr-7 relative mt-7"
     >
       <div className="content">
         <img src="../../../img/new.png" alt="" />
