@@ -4,7 +4,7 @@ import { Link } from "@remix-run/react";
 const Navbar = () => {
   return (
     <div className="flex xs:flex-col mdl:flex-row justify-between gap-10 flex-wrap mb-10">
-      <div className="title text-xl30 text-white ">Welcome to The Jim Jones Cast</div>
+      <div className="title text-lg24 mt-5 mdl:mt-2 mdl:text-xl30 text-white ">Welcome to The Jim Jones Cast</div>
       <div className="menu flex flex-row xs:justify-between lgl:justify-normal gap-5">
         <div className="search flex flex-row items-center relative justify-between">
           <CiSearch className="absolute text-white ml-2" />
