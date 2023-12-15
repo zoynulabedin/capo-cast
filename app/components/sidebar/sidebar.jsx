@@ -13,22 +13,22 @@ const menuItems = [
       {
         title: "Home",
         path: "/dashboard",
-        icon: <AiFillAppstore size={34} />,
+        icon: <AiFillAppstore size={28} />,
       },
       {
         title: "Notifications",
         path: "/notifications",
-        icon: <IoIosNotifications size={34} />,
+        icon: <IoIosNotifications size={28} />,
       },
       {
         title: "Settings",
         path: "/settings",
-        icon: <IoSettingsSharp size={34} />,
+        icon: <IoSettingsSharp size={28} />,
       },
       {
         title: "Logout",
         path: "/logout",
-        icon: <RiLoginBoxLine size={34} />,
+        icon: <RiLoginBoxLine size={28} />,
       },
     ],
   },
@@ -41,22 +41,22 @@ const playList = [
       {
         title: "Playlist #A",
         path: "/",
-        icon: <BiSolidPlaylist size={34} />,
+        icon: <BiSolidPlaylist size={28} />,
       },
       {
         title: "Playlist #B",
         path: "/",
-        icon: <BiSolidPlaylist size={34} />,
+        icon: <BiSolidPlaylist size={28} />,
       },
       {
         title: "Playlist #C",
         path: "/",
-        icon: <BiSolidPlaylist size={34} />,
+        icon: <BiSolidPlaylist size={28} />,
       },
       {
         title: "Add New +",
         path: "/",
-        icon: <BiSolidPlaylist size={34} />,
+        icon: <BiSolidPlaylist size={28} />,
       },
     ],
   },
@@ -64,8 +64,8 @@ const playList = [
 
 const Sidebar = () => {
   return (
-    <div className="sidebar bg-darkbgs h-full">
-      <div className="logo">
+    <div className="sidebar bg-darkbgs h-screen">
+      <div className="logo mb-10">
         <Link to="/dashboard">
           <img src="../../../img/logo.png" alt="" />
         </Link>
@@ -74,14 +74,14 @@ const Sidebar = () => {
         <ul className="flex flex-col mt-4">
           {menuItems.map((menuItem, index) => (
             <li key={index}>
-              <span className="text-white menu-title text-[22px]">
+              <span className="text-white menu-title text-[20px] ">
                 {menuItem.title}
               </span>
-              <ul className="flex flex-col gap-7 mt-5">
+              <ul className="flex flex-col gap-8 mt-10">
                 {menuItem.list.map((item, index) => (
                   <li key={index}>
                     <Link
-                      className="text-white80 hover:text-red flex gap-2  text-[22px] font-light"
+                      className="text-white80 hover:text-red flex gap-2  text-[20px] font-light"
                       to={item.path}
                     >
                       {item.icon} {item.title}
@@ -95,7 +95,7 @@ const Sidebar = () => {
         <ul className="mb-8 mt-8">
           <li>
             <Link
-              className="text-white80 hover:text-red flex gap-2 text-[22px]"
+              className="text-white80 hover:text-red flex gap-2 text-[20px]"
               to=""
             >
               <img src="../../../img/qs.png" alt="" />
@@ -106,14 +106,14 @@ const Sidebar = () => {
         <ul className="flex flex-col mt-3">
           {playList.map((listItem, index) => (
             <li key={index}>
-              <span className="text-white menu-title font-Montserrat text-[22px]">
+              <span className="text-white menu-title  text-[20px]">
                 {listItem.title}
               </span>
-              <ul className="flex flex-col gap-7 mt-5">
+              <ul className="flex flex-col gap-8 mt-5">
                 {listItem.list.map((item, index) => (
                   <li key={index}>
                     <Link
-                      className=" text-white80 hover:text-red flex gap-2  text-[22px]"
+                      className=" text-white80 hover:text-red flex gap-2  text-[20px]"
                       to={item.path}
                     >
                       {item.icon} {item.title}

@@ -1,17 +1,11 @@
 const Banner = () => {
   return (
-    <div
-      style={{
-        backgroundImage: `url('../../../img/b.png')`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-      }}
-      className="banner-bg flex flex-row justify-between rounded-lg mt-10 relative"
+    <div className="banner-bg flex flex-row justify-between rounded-lg relative"
     >
       <div className="content pl-5 pt-5">
         <div className="con-header flex items-center gap-5">
           <img src="../../../img/c.png" alt="" />
-          <h2 className="text-white text-sm18">
+          <h2 className="text-white text-sm18 font-Inter">
             No Ads & Unlock All of Paid Songs
           </h2>
         </div>
@@ -25,7 +19,7 @@ const Banner = () => {
             Ut enim ad minim veniam, quis nostrud.
           </p>
         </div>
-        <div className="con-footer flex xs:flex-col sml:flex-row gap-5 mt-5 mb-4">
+        <div className="con-footer flex xs:flex-col sml:flex-row gap-5 mt-5 mb-8">
           <button className=" bg-darkdeepbg text-white pt-2 pb-2 pl-6 pr-6 text-xl rounded-full">
             Upgrade Now
           </button>
@@ -34,13 +28,12 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      {/* <div className="photo hidden lgl:block xl:absolute right-0 top-0 bottom-0">
-        <img
-          className="xxl:w-full h-auto xxl:h-full"
+      <div className="photo hidden lgl:block xl:absolute -right-7 -top-5 bottom-0 ">
+        <img width={320}
           src="../../../img/singer.png"
           alt=""
         />
-      </div> */}
+      </div>
     </div>
   );
 };

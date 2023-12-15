@@ -31,3 +31,14 @@ body {
 ul li a {
   font-family: "Inter" !important;
 }
+
+ul li span{
+  font-family: "Inter" !important;
+}
+.con-header h2{
+  font-family: "Inter" !important;
+}
+.banner-bg{
+  background: rgb(74,0,0);
+background: linear-gradient(90deg, rgba(74,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(122,0,0,1) 95%);
+}
