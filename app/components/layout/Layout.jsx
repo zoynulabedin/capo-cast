@@ -1,3 +1,4 @@
+import MobileMenu from "../mobileMenu/mobileMenu";
 import Navbar from "../navbar/Navbar";
 import Sidebar from "../sidebar/sidebar";
 
@@ -11,6 +12,7 @@ const Layout = ({ children }) => {
         <Sidebar />
       </div>
       <div className="content xll:basis-10/12 p-10">
+        <MobileMenu/>
         <Navbar />
         {children}
       </div>

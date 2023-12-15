@@ -10,7 +10,7 @@ import {
 } from "@remix-run/react";
 
 export const links = () => [
-  ...(styles ? [{ rel: "stylesheet", href: styles }, { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" },] : []),
+  ...(styles ? [{ rel: "stylesheet", href: styles }, { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" },{rel:"stylesheet",href:"https://video-react.github.io/assets/video-react.css"}] : []),
 
 ];
 

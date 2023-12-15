@@ -2,6 +2,7 @@ import React from "react";
 import Spice from "../components/spice/spice";
 import SingleBanner from "../components/singlebanner/Singlebanner";
 import { Link } from "@remix-run/react";
+
 const singleArtist = () => {
   return (
     <div className="single-artist">
@@ -44,6 +45,7 @@ const singleArtist = () => {
         
         </div>
       </div>
+    
     </div>
   );
 };

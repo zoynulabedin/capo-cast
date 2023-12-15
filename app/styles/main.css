@@ -4,8 +4,30 @@
 
 body {
   background-color: #202020;
+}
+@media only screen and (min-width:1200px) {
   overflow-y: hidden;
 }
+@media only screen and (max-width:1299px) {
+  .left-sidebar{
+    display:none
+  }
+  .mobile-menu{
+    display:block;
+  }
+}
+@media only screen and (min-width:1300px) {
+  .left-sidebar{
+    display:block
+  }
+}
+@media only screen and (min-width:1300px) {
+
+  .mobile-menu{
+    display:none;
+  }
+}
+
 .menu-title {
   position: relative;
   font-weight: bold;

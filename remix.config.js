@@ -5,6 +5,7 @@ export default {
     /^react-icons/,
     /^@fontsource\/montserrat/,
     /^@fontsource\/inter/,
+    /^video-react/
   ],
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
