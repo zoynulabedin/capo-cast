@@ -13,26 +13,35 @@ const singleArtist = () => {
         slug="in-ha-mod"
       />
       <div className="experiences">
-        <h2 className=" text-base20 text-white mt-4 mb-4">
+        <h2 className=" text-base20 text-white mt-4">
           Additional artist experiences:
         </h2>
-        <div className="grid grid-cols-4 lgl:grid-cols-4 xs:grid-cols-2 song-list">
+        <div className="grid grid-cols-4 lgl:grid-cols-4 xs:grid-cols-2 song-list -m-4">
           {/* <Spice thumbnail="../../img/p/1.png" title="Gangsta Boo" />
           <Spice thumbnail="../../img/p/2.png" title="Gangsta Boo" />
           <Spice thumbnail="../../img/p/3.png" title="Gangsta Boo" />
           <Spice thumbnail="../../img/p/4.png" title="Gangsta Boo" /> */}
+          <div className="thumbnail-play">
           <Link to="/video">
-            <img src="../../img/p/1.png" alt="" />
+            <img width="100%" src="../../img/p/1.png" alt="" />
           </Link>
+          </div>
+        <div className="thumbnail-play">
+        <Link to="/video">
+            <img width="100%" src="../../img/p/2.png" alt="" />
+          </Link>
+        </div>
+        <div className="thumbnail-play">
+        <Link to="/video">
+            <img width="100%" src="../../img/p/3.png" alt="" />
+          </Link>
+        </div>
+          <div className="thumbnail-play">
           <Link to="/video">
-            <img src="../../img/p/2.png" alt="" />
+            <img width="100%" src="../../img/p/4.png" alt="" />
           </Link>
-          <Link to="/video">
-            <img src="../../img/p/3.png" alt="" />
-          </Link>
-          <Link to="/video">
-            <img src="../../img/p/4.png" alt="" />
-          </Link>
+          </div>
+        
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@
 
 body {
   background-color: #202020;
+  overflow-y: hidden;
 }
 .menu-title {
   position: relative;
@@ -41,4 +42,10 @@ ul li span{
 .banner-bg{
   background: rgb(74,0,0);
 background: linear-gradient(90deg, rgba(74,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(122,0,0,1) 95%);
+}
+.song-list img {
+  max-width: 100%;
+}
+.song-list {
+  max-width: 80%;
 }

@@ -65,7 +65,7 @@ const playList = [
 const Sidebar = () => {
   return (
     <div className="sidebar bg-darkbgs h-screen">
-      <div className="logo mb-10">
+      <div className="logo mb-10 mt-10">
         <Link to="/dashboard">
           <img src="../../../img/logo.png" alt="" />
         </Link>
@@ -77,7 +77,7 @@ const Sidebar = () => {
               <span className="text-white menu-title text-[20px] ">
                 {menuItem.title}
               </span>
-              <ul className="flex flex-col gap-8 mt-10">
+              <ul className="flex flex-col gap-10 mt-10">
                 {menuItem.list.map((item, index) => (
                   <li key={index}>
                     <Link
@@ -109,7 +109,7 @@ const Sidebar = () => {
               <span className="text-white menu-title  text-[20px]">
                 {listItem.title}
               </span>
-              <ul className="flex flex-col gap-8 mt-5">
+              <ul className="flex flex-col gap-10 mt-5">
                 {listItem.list.map((item, index) => (
                   <li key={index}>
                     <Link

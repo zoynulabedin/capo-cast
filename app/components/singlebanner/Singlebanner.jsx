@@ -21,7 +21,7 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="flex justify-between h-[350px] items-center pl-7 pr-7 relative mt-7"
+      className="flex justify-between h-[420px] items-center pl-7 pr-7 relative mt-7"
     >
       <div className="content">
         <img src="../../../img/new.png" alt="" />
@@ -45,7 +45,7 @@ const SingleBanner = ({ banner, title, title2, slug }) => {
       <div className="shopButton flex flex-col">
         <button className=" absolute bottom-7 right-7  text-center">
           <Link className="flex flex-col justify-center" to={`/dashboard/shop`}>
-            <span className=" text-red text-base20"> Shop</span>
+            <span className=" text-red text-base20 font-extrabold"> Shop</span>
             <img src="../../../img/cart.png" alt="" />
           </Link>
         </button>
